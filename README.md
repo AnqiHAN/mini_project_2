@@ -1,5 +1,3 @@
-
-
 # IPEN5810_Mini_Project_2 Global Trade Patterns
 by HAN Anqi, LIU Bowen
 
@@ -11,6 +9,8 @@ To classify topics embedded in employer reviews, drawn from a randomly sampled d
 There are some general library requirements for the project, and some are specific to individual methods. The general requirements are as follows:
 * `dask`
 * `numpy`
+* `pandas`
+* `geopandas`
 * `matplotlib.pyplot`
 
 
@@ -41,14 +41,15 @@ In addition to the core BACI files, we provide two additional set of files:
 `product_codes` Associates the HS 6-digit product codes to product names
 # 3. Descriptive Data Analysis
 **1 Trading Partners**
-![Top 10 Countries with the Most Trading Partners](%22E:%5CHKUST%28GZ%29%5CT2%EF%BC%8C23-24%5CIPEN%20Data%20Science%5Cmini%20project%202%5CPlotting%5CTop%2010%20Countries%20with%20the%20Most%20Trading%20Partners.png%22)
+**2 Trading Volume**
+**3 Trading Product**
+**4 Trading Distance** in example with distance to China
 
-![ottom 10 Countries with the Most Trading Partners](%22C:%5CUsers%5Chuawei%5CPictures%5CScreenshots%5CBottom%2010%20Countries%20with%20the%20Most%20Trading%20Partners.png%22)
+# 4. Trading Pattern
+**1 Countries share similar Num of Trade Partners**
+**2 Countries share similar Trade Volume**
 
-# 4. Key Findings
+# 5. Predicting Trading Flows
+**1 Countries share similar Num of Trade Partners**
+**2 Countries share similar Trade Volume**
 
-### Target 1: Review Summary
-
-### Target 2: Positive Review
-
-### Target 3: Negative Review
