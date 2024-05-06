@@ -22,6 +22,7 @@ The library requirements specific to some methods, which will be shown in the fo
 Each trade flow within BACI is characterized by a combination of exporter-importer-product-year. We provide the value and the quantity.
 
 BACI contains 6 variables:
+
 `t` Year
 
 `k` Product category (HS 6-digit code)
